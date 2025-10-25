@@ -13,5 +13,6 @@ fastapi
 python-dotenv
 streamlit
 uvicorn
+PyYAML
 httpx
 -e .
