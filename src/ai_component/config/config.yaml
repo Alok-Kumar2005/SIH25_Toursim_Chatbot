@@ -3,7 +3,7 @@ llm:
     provider: "google"
     model_name: "gemini-2.5-flash"
     model_kwargs:
-      temperature: 0.7
+      temperature: 0.5
       top_p: 0.9
       max_output_tokens: 1024
 
@@ -11,6 +11,8 @@ llm:
     provider: "groq"
     model_name: "qwen/qwen3-32b"
     model_kwargs:
-      temperature: 0.6
+      temperature: 0.5
       # top_p: 0.95
       max_tokens: 1024
+  
+  token_limit: 100000

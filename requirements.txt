@@ -3,10 +3,12 @@ langchain-groq
 langchain-google-genai
 langchain-mcp-adapters
 langchain-community
+langchain-core
+langchain_tavily
 langchain-experimental
 langchain-google-community[places]
-langchain_tavily
 langgraph
+langgraph-checkpoint-sqlite
 pydantic
 requests
 fastapi
